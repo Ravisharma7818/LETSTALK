@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="public/style.css" />
+    <link rel="stylesheet" href="/style.css" />
     <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.css"
@@ -21,7 +21,7 @@
     <section class="chatSection">
       <div class="brand">
         <h1>LetsTalk</h1>
-        <img src="public/images/chaticon.png" alt="chaticon" class="chaticon" />
+        <img src="images/chaticon.png" alt="chaticon" class="chaticon" />
       </div>
       <div class="messageArea">
         <h5 class="adminmessage">Hello Welcome!
@@ -36,25 +36,12 @@
         <textarea id="textArea" cols="10" rows="1" placeholder="Write Message Here"></textarea>
       
 
-        <button onclick="submit()" class="sendButton">-></button>
+        <button onclick="submit()" class="sendButton">Send</button>
       </div>
     </section>
 
     <script src="/socket.io/socket.io.js"></script>
-    <script type="text/javascript" src="public/client.js"></script>
-    <!-- <script src="jquery-3.5.1.min.js"></script> -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
-    <!-- <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.js"
-      integrity="sha512-hkvXFLlESjeYENO4CNi69z3A1puvONQV5Uh+G4TUDayZxSLyic5Kba9hhuiNLbHqdnKNMk2PxXKm0v7KDnWkYA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script type="text/javascript">
-      $('#textArea').emojioneArea({
-        pickerPosition: 'top'
-      })
-      textArea.value = ''
-    </script> -->
+    <script type="text/javascript" src="/client.js"></script>
+   
   </body>
 </html>

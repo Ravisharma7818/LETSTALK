@@ -1,12 +1,11 @@
 {
   "name": "letstalk",
   "version": "1.0.0",
-  "description": "",
+  "description": "Hello There My Name is Ravi Sharma !\r This project is based on chat application , I learned it from many source like \r special thanks to - coders gyan, TJ WEBDEV , 6pec programmer , code with harry etc",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
-    
   },
   "keywords": [],
   "author": "",
@@ -16,5 +15,13 @@
     "nodemon": "^2.0.14",
     "path": "^0.12.7",
     "socket.io": "^4.3.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ravisharma7818/LETSTALK.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ravisharma7818/LETSTALK/issues"
+  },
+  "homepage": "https://github.com/Ravisharma7818/LETSTALK#readme"
 }
