@@ -10,7 +10,7 @@ so simple follow these steps
 
 1. copy this project file in your desktop
 2. delete php file i include this file because i will upload this code on heroku. so u dont want this file
-3. run commad npm init -y
+3. Install dependencies Using npm i 
 4. enjoy it
 
 
